@@ -10,3 +10,15 @@ _demo:
     resource: "@AcmeDemoBundle/Controller/DemoController.php"
     type:     annotation
     prefix:   /demo
+
+AcmeDemoBundle_category:
+    resource: "@AcmeDemoBundle/Resources/config/routing/category.yml"
+    prefix:   /category
+
+AcmeDemoBundle_executor:
+    resource: "@AcmeDemoBundle/Resources/config/routing/executor.yml"
+    prefix:   /executor
+
+AcmeDemoBundle_project:
+    resource: "@AcmeDemoBundle/Resources/config/routing/project.yml"
+    prefix:   /project
