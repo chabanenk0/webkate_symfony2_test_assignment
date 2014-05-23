@@ -1,0 +1,30 @@
+executor:
+    pattern:  /
+    defaults: { _controller: "AcmeDemoBundle:Executor:index" }
+
+executor_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "AcmeDemoBundle:Executor:show" }
+
+executor_new:
+    pattern:  /new
+    defaults: { _controller: "AcmeDemoBundle:Executor:new" }
+
+executor_create:
+    pattern:  /create
+    defaults: { _controller: "AcmeDemoBundle:Executor:create" }
+    requirements: { _method: post }
+
+executor_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "AcmeDemoBundle:Executor:edit" }
+
+executor_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "AcmeDemoBundle:Executor:update" }
+    requirements: { _method: post|put }
+
+executor_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "AcmeDemoBundle:Executor:delete" }
+    requirements: { _method: post|delete }
