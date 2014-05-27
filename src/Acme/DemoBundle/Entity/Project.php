@@ -54,6 +54,10 @@ class Project
      */
     protected $clientCompany;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="Acme\DemoBundle\Entity\Executor", mappedBy="projects", cascade={"persist", "remove"})
+     */
+    protected $executors;
 
     /**
      * Get id
@@ -155,5 +159,45 @@ class Project
     public function getCategory()
     {
         return $this->category;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->executors = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add executors
+     *
+     * @param \Acme\DemoBundle\Entity\Executor $executors
+     * @return Project
+     */
+    public function addExecutor(\Acme\DemoBundle\Entity\Executor $executors)
+    {
+        $this->executors[] = $executors;
+
+        return $this;
+    }
+
+    /**
+     * Remove executors
+     *
+     * @param \Acme\DemoBundle\Entity\Executor $executors
+     */
+    public function removeExecutor(\Acme\DemoBundle\Entity\Executor $executors)
+    {
+        $this->executors->removeElement($executors);
+    }
+
+    /**
+     * Get executors
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getExecutors()
+    {
+        return $this->executors;
     }
 }

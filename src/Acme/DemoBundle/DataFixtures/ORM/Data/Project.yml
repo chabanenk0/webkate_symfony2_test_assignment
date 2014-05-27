@@ -1,0 +1,92 @@
+project1:
+    name:   "Розробка персонального сайту Іванова"
+    createdAt:  "2014-05-03"
+    clientCompany:  "Ivanov international"
+    category: "category-frontend"
+    executors:
+        executor1: "executor-ivanov"
+        executor2: "executor-petrov"
+
+project2:
+    name:   "Розробка веб-системи врахування робочого часу співробітників"
+    createdAt:  "2014-03-01"
+    clientCompany:  "Рога&Копыта international"
+    category: "category-backend"
+    executors:
+        executor1: "executor-petrov"
+        executor2: "executor-ivanov"
+        executor3: "executor-sidorov"
+        executor4: "executor-semenov"
+
+project3:
+    name:   "Розробка мобільного додатку для фіксації робочого часу співробітників"
+    createdAt:  "2014-03-01"
+    clientCompany:  "Рога&Копыта international"
+    category: "category-mobile"
+    executors:
+        executor1: "executor-petrov"
+        executor2: "executor-sidorov"
+        executor3: "executor-semenov"
+
+project4:
+    name:   "Розробка веб-сайту агенства нерухомості"
+    createdAt:  "2014-04-21"
+    clientCompany:  "House LTD"
+    category: "category-frontend"
+    executors:
+        executor1: "executor-ivanov"
+        executor2: "executor-petrov"
+        executor3: "executor-semenov"
+
+project5:
+    name:   "Розробка сайту-візитки рок-гурту <Василі>"
+    createdAt:  "2014-04-21"
+    clientCompany:  "Vasya records"
+    category: "category-frontend"
+    executors:
+        executor1: "executor-ivanov"
+
+project6:
+    name:   "Розробка мобільного додатку для фіксації маршруту руху службового транспорту"
+    createdAt:  "2014-06-01"
+    clientCompany:  "Колгосп <Світлий путь>"
+    category: "category-mobile"
+    executors:
+        executor1: "executor-sidorov"
+        executor2: "executor-semenov"
+
+project7:
+    name:   "Розробка дизайну логотипу кафе"
+    createdAt:  "2014-06-01"
+    clientCompany:  "ЧП Петров"
+    category: "category-design"
+    executors:
+        executor1: "executor-afanasyev"
+
+project8:
+    name:   "Розробка дизайну веб-сайту кафе"
+    createdAt:  "2014-06-01"
+    clientCompany:  "ЧП Петров"
+    category: "category-design"
+    executors:
+        executor1: "executor-afanasyev"
+
+project9:
+    name:   "Розробка веб-сайту кафе"
+    createdAt:  "2014-04-21"
+    clientCompany:  "ЧП Петров"
+    category: "category-frontend"
+    executors:
+        executor1: "executor-ivanov"
+        executor2: "executor-semenov"
+
+project10:
+    name:   "Розробка веб-системи складання розкладу занять"
+    createdAt:  "2014-03-01"
+    clientCompany:  "Середня школа № 77"
+    category: "category-backend"
+    executors:
+        executor1: "executor-petrov"
+        executor2: "executor-ivanov"
+        executor3: "executor-sidorov"
+        executor4: "executor-semenov"

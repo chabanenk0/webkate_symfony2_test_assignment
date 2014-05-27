@@ -1,0 +1,54 @@
+ivanov:
+    firstName:   Иван
+    middleName:  Иванович
+    lastName:    Иванов
+    birthday:    "1987-01-03"
+    careerBeginningDate:    "2008-09-02"
+    phone: "+380981234567"
+    email: "ivanov@mail.ru"
+    skype: "ivan_ivanov"
+    technologiesUsing: "Html5, css3, js, jquery, php"
+
+petrov:
+    firstName:   Петров
+    middleName:  Петро
+    lastName:    Петрович
+    birthday:    "1986-02-04"
+    careerBeginningDate:    "2005-09-01"
+    phone: "+380981234555"
+    email: "petrov@mail.ru"
+    skype: "petro_petrov"
+    technologiesUsing: "Symfony2, Zend, Yii"
+
+sidorov:
+    firstName:   Сидоров
+    middleName:  Сидор
+    lastName:    Сидорович
+    birthday:    "1985-02-04"
+    careerBeginningDate:    "2007-09-01"
+    phone: "+380983334555"
+    email: "sidorov@mail.ru"
+    skype: "sidor_sidorov"
+    technologiesUsing: "java2me"
+
+afanasyev:
+    firstName:   Афанасьєв
+    middleName:  Афанасій
+    lastName:    Афанасійович
+    birthday:    "1980-02-04"
+    careerBeginningDate:    "2001-09-01"
+    phone: "+380934434555"
+    email: "afonya@mail.ru"
+    skype: "afonya_afanasyev"
+    technologiesUsing: "photoshop cs9"
+
+semenov:
+    firstName:   Семенов
+    middleName:  Семен
+    lastName:    Семенович
+    birthday:    "1988-05-01"
+    careerBeginningDate:    "2009-09-01"
+    phone: "+380932998786"
+    email: "semenov@mail.ru"
+    skype: "semen_semenovich"
+    technologiesUsing: "qa"
